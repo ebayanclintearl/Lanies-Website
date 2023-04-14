@@ -1,0 +1,234 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/gallery_river side.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: white;
+}
+
+.banner-content div {
+    position: absolute;
+    top: 80px;
+    text-transform: uppercase;
+}
+
+.banner-content div h1 {
+    font-size: 96px;
+    padding: 8px;  
+}
+
+.banner-content div p {
+    color: #cac8c7;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding: 16px;
+}
+
+.content{
+    width: 70%;
+    margin: 80px auto;
+}
+
+.content .content2{
+    width: 60%;
+    float: left;
+}
+.content .content2 h3{
+    width: fit-content;
+    padding: 5px 10px;
+    color: white;
+    background-color: #F16232;
+    letter-spacing: 2px;
+}
+.content .content2 h1{
+    font-size: 48px;
+    margin: 20px 0px 10px 0px;
+    letter-spacing: 2px;
+}
+.content .content2 .dash{
+    width: 100px;
+    height: 4px;
+    background-color: #F16232;
+}
+.content .content2 p{
+    color: #5a5a5a;
+    margin: 20px 0px;
+    letter-spacing: 2px;
+}
+
+.content .content2 table{
+    margin: 50px 0px;
+    width: 95%;
+}
+.content .content2 table tr td{
+    letter-spacing: 2px;
+    padding: 10px 0px 5px 0px;
+}
+.content .content2 table tr span{
+    color: #F16232;
+}
+.content .content2 table tr input[type=text],select{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.content .content2 table tr #message{
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    resize: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.content .content2 table tr input[type=submit]{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: #F16232;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.content .content2 table tr input[type=submit]:hover{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: #f16f43;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.content .content3{
+    width: 40%;
+    text-align: center;
+    float: right;
+}
+
+.content .content3 .wrapper{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,.15);
+    box-shadow: 2px 2px 1px 0 rgb(0 0 0 / 15%);
+
+}
+.content .content3 .wrapper h4{
+    margin: 0px auto;
+    margin-top: 40px;
+    padding: 5px 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: #F16232;
+    color: white;
+    width: fit-content;
+}
+.content .content3 .wrapper h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.content .content3 .wrapper .dash{
+   width: 100px;
+   height: 3px;
+   margin: 0 auto;
+   background-color: #F16232;
+}
+.content .content3 .wrapper .schedule{
+    margin-top: 20px;
+    color: #5a5a5a;
+    letter-spacing: 2px;
+    
+ }
+ .content .content3 .wrapper .contact{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    
+ }
+ .content .content3 .wrapper .contact p{
+    line-height: 1.5;
+ }
+ .content .content3 .wrapper .contact img{
+     width: 20px;
+ }
+
+ .content .content3 .wrapper hr{
+    width: 80%;
+    border: none;
+    padding: 0;
+    margin: 25px auto;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+
+}
+.content .content3 .wrapper .social-media{
+   margin-bottom: 50px;
+   width: 100%;
+
+}
+.content .content3 .wrapper .social-media img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+ 
+}
+
+@media only screen and (max-width: 1415px) {
+    .banner-content div {
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 70%;  
+    }
+
+    .banner-content div {
+        position: absolute;
+        top: 80px;
+        text-transform: uppercase;
+    }
+    
+    .banner-content div h1 {
+        font-size: 96px;
+        padding: 4px;  
+    }
+    
+    .banner-content div p {
+        padding: 14px;
+    }
+
+    .content .content2{
+        width: 100%;
+        float: none;
+    }
+    .content .content2 table{
+        margin: 50px auto;
+        width: 100%;
+    }
+    .content .content3{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 905px) {
+    .banner-content div h1 {
+        font-size: 76px; 
+    }
+}

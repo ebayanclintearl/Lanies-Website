@@ -1,0 +1,320 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.banner{
+    width: 100%;
+    height: 616px;
+    margin: 0 auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/empanada_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.banner-content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: white;
+}
+
+.banner-content div {
+    position: absolute;
+    top: 15vh;
+    text-transform: uppercase;
+}
+
+.banner-content div h2 {
+    width: fit-content;
+    background-color: #000000;
+    padding: 8px;  
+}
+
+.banner-content div h1 {
+    font-size: 96px;
+    padding: 8px;  
+}
+
+.banner-content div a {
+    color: white;
+    text-decoration: none;
+    background-color: #F16232;
+    padding: 16px;
+}
+
+.banner-content div a:hover {
+    color: #F16232;
+    background-color: transparent;
+    padding: 14px;
+    border: 2px solid #F16232; 
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.img-content {
+    width: 50%;
+    float: left;
+}
+.img-content img {
+    width: 95%;
+}
+.text-content {
+    width: 50%;
+    float: right;
+}
+
+.text-content h1 {
+    font-size: 64px;
+}
+
+.text-content span {
+    color: #F16232;
+}
+
+.text-content p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.content2{
+    margin-top: 80px;
+    background-color: #F16232;
+}
+
+.content2 div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+}
+
+.content2 h1 {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 5px;
+    padding: 30px 0px 25px 0px;
+}
+
+.content2 h3 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 15px 0px;
+    text-transform: capitalize;
+}
+
+.content2 p {
+    color: rgb(253, 198, 166);
+    letter-spacing: 2px;
+}
+
+.content3 {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.content3 div h1{
+    color: #F16232;
+    letter-spacing: 3px;
+}
+
+.content3 .img-menu{
+    width: 49%;
+    margin: 50px 0px 150px 0px;
+    height: 400px;
+
+}
+.content3 .img-menu div:first-child{
+    height: 360px;
+    overflow: hidden;
+}
+
+.content3 .img-menu img{
+    width: 100%;
+    height: 100%;
+    transition: transform .5s ease;
+    
+}
+.content3 .img-menu-l{
+    float: left;   
+}
+.content3 .img-menu-r{
+    float: right;   
+}
+
+.content3 .img-menu div:hover img{
+    transform: scale(1.2);
+}
+.content3 h3 {
+    color: #F16232;
+    letter-spacing: 2px;
+    margin: 20px 0px 10px 0px;
+}
+
+.content3 p {
+    color: #5a5a5a;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.content3 span {
+    color: rgb(255, 142, 49);
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.menu-selection select{
+    width: 100%;
+    padding: 5px;
+    border-color: #5a5a5a;
+    color: #5a5a5a;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.menu-selection button{
+   width: 100%;
+   padding: 10px 0px;
+   background-color: #F16232;
+   color: white;
+   border: 2px solid #F16232;
+}
+.menu-selection button:hover{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #f16f43;
+    color: white;
+    border: 2px solid #f16f43;
+    cursor: pointer;
+ }
+.content4 {
+    width: 100%;
+    margin-top: 80px;
+    height: 350px;
+    background-color: #F16232;
+    position: relative;
+}
+.content4 .content-text{
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 220px;
+    text-align: center;
+    background-color: white;
+}
+
+.content4 .content-text p:first-child {
+    margin-top: 10px;
+    padding: 10px;
+    color: #F16232;
+    letter-spacing: 2px;
+}
+
+.content4 .content-text h1{
+    letter-spacing: 2px;
+}
+
+.content4 .content-text p{
+    letter-spacing: 2px;
+    padding: 5px;
+    color: #5a5a5a;
+}
+
+.content4 .content-text a {
+    display:block;
+    width: fit-content;
+    margin: 20px auto;
+    color: #F16232;
+    background-color: transparent;
+    padding: 16px;
+    border: 2px solid #F16232;
+    text-decoration: none;
+}
+
+.content4 .content-text a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #F16232;
+    padding: 16px;   
+}
+
+.content5{
+    width: 70%;
+    margin: 0 auto;
+}
+.content5 div{
+    width: 33.33333333333333%;
+    height: 225px;
+    margin: 80px 0px;
+    float: left;
+    text-align: center;
+}
+.content5 h3{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #5a5a5a;
+}
+.content5 img{
+    margin-bottom: 20px;
+}
+.content5 p{
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: #5a5a5a;
+}
+@media only screen and (max-width: 1415px) {
+    .banner-content div {
+        position: absolute;
+        top: 5.5vh;
+        text-transform: uppercase;
+    }
+    .img-content {
+        width: 100%;
+    }
+    .img-content img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .text-content {
+        width: 100%;
+    }
+    
+    .text-content h1 {
+        font-size: 64px;
+        text-align: center;
+    }
+    .content2 div {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        height: 600px;
+    }
+    .content3 {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .content4 .content-text{
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        height: 250px;
+        text-align: center;
+        background-color: white;
+    }
+}

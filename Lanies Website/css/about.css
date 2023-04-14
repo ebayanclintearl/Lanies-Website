@@ -1,0 +1,125 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/about_empanada_festival.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: white;
+}
+
+.banner-content div {
+    position: absolute;
+    top: 80px;
+    text-transform: uppercase;
+}
+
+.banner-content div h1 {
+    font-size: 96px;
+    padding: 8px;  
+}
+
+.banner-content div p {
+    color: #dfdfdf;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding: 16px;
+}
+.content{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.content h1{
+    font-size: 48px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.content p{
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.content blockquote{
+    margin-top: 20px;
+}
+.content span img{
+    height: 50px;
+    float: left;
+}
+
+.features{
+    text-align: center;
+    width: 100%;
+    margin: 80px auto;
+}
+.features h4{
+    background-color: #F16232;
+    color: white;
+    padding: 10px 12px;
+    width: fit-content;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+.features h1{
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+.features p{
+    letter-spacing: 2px;
+    color: #5a5a5a;
+}
+.image-features{
+    width: 90%;
+    margin: 0 auto;
+}
+.image-features .container{
+    width: 33.33333333333333%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+.image-features .container img{
+    width: 100%;
+    height: 300px;
+    float: left;
+    padding: 10px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.image-features .container .middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-features .container:hover .image{
+    opacity: 0.3;
+}
+  
+.image-features .container:hover .middle{
+    opacity: 1;
+} 
+.image-features .container .text{
+    background-color: #F16232;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    letter-spacing: 2px;
+}

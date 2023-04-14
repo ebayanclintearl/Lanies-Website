@@ -1,0 +1,79 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/gallery_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: white;
+}
+
+.banner-content div {
+    position: absolute;
+    top: 80px;
+    text-transform: uppercase;
+}
+
+.banner-content div h1 {
+    font-size: 96px;
+    padding: 8px;  
+}
+
+.banner-content div p {
+    color: #cac8c7;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding: 16px;
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 35px;
+    color: #F16232;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+.content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.content div{
+    width: 48%;
+    margin: 1%;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+.content div img{
+    transition: transform .5s ease;
+}
+.content div:hover img{
+    transform: scale(1.2);
+}
+.content .img-l img{
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+.content .img-r img{
+    width: 100%;
+    height: 400px;
+    float: right;
+}
+
+@media only screen and (max-width: 1415px) {
+    .content{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
